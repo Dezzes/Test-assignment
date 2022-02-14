@@ -11,17 +11,17 @@ const AppRouter = () => {
             <Routes>
                 <Route
                     path="*"
-                    element={<Navigate to="/users" />}
+                    element={<Navigate to="test-assignment/users" />}
                 />
-                <Route path='/users' element={<Users />} />
+                <Route path='test-assignment/users' element={<Users />} />
             </Routes>
             :
             <Routes>
                 <Route
                     path="*"
-                    element={<Navigate to="/login" />}
+                    element={<Navigate to="test-assignment/login" />}
                 />
-                <Route path='/login' element={<LoginForm />} />
+                <Route path='test-assignment/login' element={<LoginForm />} />
             </Routes>
     );
 };
