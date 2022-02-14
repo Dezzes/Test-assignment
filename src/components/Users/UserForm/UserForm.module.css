@@ -1,0 +1,12 @@
+.errorMsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.createBtn {
+    margin-top: 15px;
+    min-width: 64px
+}
